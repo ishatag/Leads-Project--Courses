@@ -2,7 +2,7 @@
 Analyze patterns in course enrollments and learner engagement, generate insights that help educators, platforms, and decision-makers improve course design, marketing strategies, and learner outcomes.
 For example, a marketing team can understand which categories (e.g., Business, Tech) are bringing in the most students or revenue.
 
-****Stakeholders: ***
+**Stakeholders: **
 1. Sales Team	: Focus efforts on Hot leads, save time by avoiding low-quality leads
 2. Marketing Team	: Learn which campaigns and channels bring the best leads
 3. Executives	: Get a clear overview of performance and lead quality via the Power BI dashboard
@@ -50,7 +50,7 @@ Power BI was used to visualize the findings and allow business users to interact
 This Python file includes a complete lead scoring pipeline:
 
  1. Data Preprocessing
-Loaded and cleaned over 9,200 rows of raw lead data
+Loaded and cleaned 9240 rows of raw lead data
 
 Handled missing values, dropped irrelevant columns
 
