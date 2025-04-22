@@ -2,7 +2,7 @@
 Analyze patterns in course enrollments and learner engagement, generate insights that help educators, platforms, and decision-makers improve course design, marketing strategies, and learner outcomes.
 For example, a marketing team can understand which categories (e.g., Business, Tech) are bringing in the most students or revenue.
 
-**Stakeholders: **
+Stakeholders: 
 1. Sales Team	: Focus efforts on Hot leads, save time by avoiding low-quality leads
 2. Marketing Team	: Learn which campaigns and channels bring the best leads
 3. Executives	: Get a clear overview of performance and lead quality via the Power BI dashboard
