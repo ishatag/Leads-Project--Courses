@@ -6,7 +6,6 @@ Stakeholders:
 1. Sales Team	: Focus efforts on Hot leads, save time by avoiding low-quality leads
 2. Marketing Team	: Learn which campaigns and channels bring the best leads
 3. Executives	: Get a clear overview of performance and lead quality via the Power BI dashboard
-4. Data Analysts	: Use a structured, cleaned dataset and scoring logic for future improvement
 
 **📁 Files Included in This Project**
 data_analysis_leadscoring.py
