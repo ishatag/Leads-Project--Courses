@@ -1,4 +1,4 @@
-**The aim of the Courses Dataset:**
+**The AIM of the Courses Dataset:**
 Analyze patterns in course enrollments and learner engagement, generate insights that help educators, platforms, and decision-makers improve course design, marketing strategies, and learner outcomes.
 For example, a marketing team can understand which categories (e.g., Business, Tech) are bringing in the most students or revenue.
 
