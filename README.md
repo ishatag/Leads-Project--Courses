@@ -8,20 +8,17 @@ Stakeholders:
 3. Executives	: Get a clear overview of performance and lead quality via the Power BI dashboard
 
 **📁 Files Included in This Project**
-data_analysis_leadscoring.py
-Full Python code (Google Colab) for cleaning the data, analyzing trends, building ML models, and scoring leads.
+data_analysis_leadscoring.py: Full Python code (Google Colab) for cleaning the data, analyzing trends, building ML models, and scoring leads.
 
-lead_scoring_output_GoogleColab.csv
-Final output file that includes lead score and category for each lead.
+lead_scoring_output_GoogleColab.csv: Final output file that includes lead score and category for each lead.
 
-Leads Dashboard.pbix
-Power BI dashboard showing lead behavior, source analysis, score categories, and performance summaries.
+Leads Dashboard.pbix: Power BI dashboard showing lead behavior, source analysis, score categories, and performance summaries.
 
-Leadscoring.csv & Lead Dictionary
-A original version of the dataset.
+Leadscoring.csv & Lead Dictionary: A original version of the dataset.
 
 **🛠️ Tools and Libraries Used**
 Python: For data processing, visualization, and model building
+
 Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn, xgboost
 
 Google Colab: Python execution environment
@@ -49,65 +46,71 @@ Power BI was used to visualize the findings and allow business users to interact
 This Python file includes a complete lead scoring pipeline:
 
  1. Data Preprocessing
-Loaded and cleaned 9240 rows of raw lead data
 
-Handled missing values, dropped irrelevant columns
+    Loaded and cleaned 9240 rows of raw lead data
 
-Converted categorical variables using one-hot encoding
+    Handled missing values, dropped irrelevant columns
+
+    Converted categorical variables using one-hot encoding
 
  2. Exploratory Data Analysis (EDA)
-Analyzed key features: Lead Source, Country, Total Visits, Page Views
 
-Plotted visualizations using matplotlib and seaborn
+    Analyzed key features: Lead Source, Country, Total Visits, Page Views
 
-Identified features highly correlated with conversion
+    Plotted visualizations using matplotlib and seaborn
+
+    Identified features highly correlated with conversion
 
  3. Feature Engineering
-Created new columns like:
 
-lead_score (based on predicted probability)
+    Created new columns like:
 
-lead_category: Hot (score > 0.7), Warm (0.4–0.7), Cold (< 0.4)
+    lead_score (based on predicted probability)
+
+    lead_category: Hot (score > 0.7), Warm (0.4–0.7), Cold (< 0.4)
 
  4. Model Building & Evaluation
-Applied and compared 4 models:
 
-Logistic Regression
+    Applied and compared 4 models:-
 
-Decision Tree
+    >Logistic Regression
 
-Random Forest
+    >Decision Tree
 
-XGBoost
+    >Random Forest
 
-Used train/test split (70/30) and metrics like:
+    >XGBoost
 
-Accuracy: Up to 85% with XGBoost
+    Used train/test split (70/30) and metrics like:
 
-Precision/Recall/F1 scores to evaluate classification
+    >Accuracy: Up to 85% with XGBoost
 
-Confusion matrix and ROC-AUC for deeper analysis
+    >Precision/Recall/F1 scores to evaluate classification
+
+    >Confusion matrix and ROC-AUC for deeper analysis
 
  5. Lead Scoring Output
-Saved final leads with predicted scores and category to CSV
 
-Ready to plug into CRM or dashboard tools
+    Saved final leads with predicted scores and category to CSV
+
+    Ready to plug into CRM or dashboard tools
 
 **📊 Power BI Dashboard Summary: Leads Dashboard.pbix**
 The dashboard provides real-time insights for non-technical stakeholders:
 
-Key Visuals:
+Key Visuals:-
+
 Total Leads: 9,244
 
 Conversion Rate: ~34.8%
 
-Lead Categories:
+**Lead Categories:**
 
-Hot Leads: 2,180
+a)Hot Leads: 2,180
 
-Warm Leads: 3,094
+b)Warm Leads: 3,094
 
-Cold Leads: 3,970
+c)Cold Leads: 3,970
 
 The dashboard sections and key findings:
 
