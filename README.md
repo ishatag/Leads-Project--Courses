@@ -115,6 +115,7 @@ Key Visuals:-
 The dashboard sections and key findings:
 
 1️⃣ Engagement Level (Hot, Warm, Cold)
+
 This is your lead scoring outcome shown visually.
 
 Hot Leads = High chance to convert (score ≥ 70)
@@ -141,6 +142,7 @@ Others (like Facebook) may bring more traffic but fewer conversions.
 Shift more marketing budget to high-performing channels.
 
 3️⃣ Country-Wise Performance
+
 Shows how leads perform by country or region.
 
 🔍 Insight:
@@ -152,6 +154,7 @@ Most converting leads are from India. Other countries like the US or UK may need
 Consider tailoring campaigns by geography.
 
 4️⃣ Lead Funnel (Stage Drop-off)
+
 Visual representation of how many leads progress from first contact to conversion.
 
 🔍 Insight:
@@ -163,6 +166,7 @@ Large drop-offs after the “Initial Contact” stage → Possible communication
 Focus on improving follow-up process (e.g., quicker emails or demo calls).
 
 5️⃣ Top Specializations / Interests
+
 Visuals show which courses or specializations users are interested in.
 
 🔍 Insight:
@@ -174,6 +178,7 @@ Specializations like Finance, Marketing, and Operations are more popular → ali
 Promote these programs more or offer bundled discounts.
 
 6️⃣ Engagement Score Breakdown
+
 Based on:
 
 Total Website Visits
