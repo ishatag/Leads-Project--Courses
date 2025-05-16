@@ -47,31 +47,31 @@ This Python file includes a complete lead scoring pipeline:
 
  1. Data Preprocessing
 
-    Loaded and cleaned 9240 rows of raw lead data
+    >Loaded and cleaned 9240 rows of raw lead data
 
-    Handled missing values, dropped irrelevant columns
+    >Handled missing values, dropped irrelevant columns
 
-    Converted categorical variables using one-hot encoding
+    >Converted categorical variables using one-hot encoding
 
  2. Exploratory Data Analysis (EDA)
 
-    Analyzed key features: Lead Source, Country, Total Visits, Page Views
+    >Analyzed key features: Lead Source, Country, Total Visits, Page Views
 
-    Plotted visualizations using matplotlib and seaborn
+    >Plotted visualizations using matplotlib and seaborn
 
-    Identified features highly correlated with conversion
+    >Identified features highly correlated with conversion
 
  3. Feature Engineering
 
-    Created new columns like:
+    >Created new columns such as:
 
-    lead_score (based on predicted probability)
+     a)lead_score (based on predicted probability)
 
-    lead_category: Hot (score > 0.7), Warm (0.4–0.7), Cold (< 0.4)
+     b)lead_category: Hot (score > 0.7), Warm (0.4–0.7), Cold (< 0.4)
 
  4. Model Building & Evaluation
 
-    Applied and compared 4 models:-
+    (i)Applied and compared 4 models:-
 
     >Logistic Regression
 
@@ -81,7 +81,7 @@ This Python file includes a complete lead scoring pipeline:
 
     >XGBoost
 
-    Used train/test split (70/30) and metrics like:
+    (ii)Used train/test split (70/30) and metrics like:
 
     >Accuracy: Up to 85% with XGBoost
 
@@ -91,26 +91,26 @@ This Python file includes a complete lead scoring pipeline:
 
  5. Lead Scoring Output
 
-    Saved final leads with predicted scores and category to CSV
+    >Saved the final leads with predicted scores and category to CSV
 
-    Ready to plug into CRM or dashboard tools
+    >Ready to plug into dashboard tools to communication the insights to the stakeholders
 
 **📊 Power BI Dashboard Summary: Leads Dashboard.pbix**
 The dashboard provides real-time insights for non-technical stakeholders:
 
 Key Visuals:-
 
-Total Leads: 9,244
+   Total Leads: 9,244
 
-Conversion Rate: ~34.8%
+   Conversion Rate: ~34.8%
 
 **Lead Categories:**
 
-a)Hot Leads: 2,180
+   a)Hot Leads: 2,180
 
-b)Warm Leads: 3,094
+   b)Warm Leads: 3,094
 
-c)Cold Leads: 3,970
+   c)Cold Leads: 3,970
 
 The dashboard sections and key findings:
 
@@ -193,11 +193,12 @@ Create automated alerts to notify sales team when engagement score > threshold.
 
 
 **💼 Business Impact**
-Sales teams can now prioritize better, focusing on leads that are more likely to convert.
 
-Marketing teams can see which lead sources perform best and refine their campaigns.
+1. Sales teams can now prioritize better, focusing on leads that are more likely to convert.
 
-Executives can track performance using a clean, visual dashboard that’s easy to use and understand.
+2. Marketing teams can see which lead sources perform best and refine their campaigns.
+
+3. Executives can track performance using a clean, visual dashboard that’s easy to use and understand.
 
 
 
